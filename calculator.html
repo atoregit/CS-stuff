@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="everything">
+        <div class="calculator">
+            <h1>Online Calculator</h1>
+            <h2>Calculate any two values here!</h2>
+            <p>Welcome to our webpage calculator! This calculator allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus. To use the calculator, simply enter the values you want to calculate in the input boxes and click on the corresponding operation button. The result will be displayed below the buttons. Happy calculating!</p>
+            <div class="numBox">
+                <input type="text" id="num1" placeholder="Num 1">
+                <input type="text" id="num2" placeholder="Num 2">
+            </div>
+            <div class="buttons">
+                <button onclick="add()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="mult()">*</button>
+                <button onclick="div()">/</button>
+                <button onclick="mod()">%</button>
+            </div>
+            <p id="result">Results will be displayed here.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
